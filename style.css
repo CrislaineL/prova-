@@ -1,0 +1,261 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+header {
+    background: rgb(70, 4, 4);
+    padding: 1vw;
+
+    & .container h1{
+        color: rgb(255, 0, 0);
+        font-size: 2vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 5vw;
+        margin-top: -3vw;
+        
+    }
+}
+
+.container {
+    width: 100%;
+    background: black;
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilo do logo */
+.containerLogo img {
+    width: 5vw;
+}
+
+/* Estilo do menu de navegação */
+.containerMenu {
+    width: 60%;
+}
+
+.containerMenu nav {
+    padding: 15px;
+}
+
+.containerMenu nav a {
+    color: red;
+    font-size: 18px;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.containerMenu nav a:hover {
+    color: red;
+    font-size: 20px;
+    padding: 10px;
+    background: rgba(153, 3, 3, 0.699);
+    border-radius: 16px;
+}
+
+
+.noticias {
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr)); 
+    gap: 2vw; 
+    padding: 2vw; 
+}
+
+
+.noticia {
+    background-color: white;
+    border-radius: 0.8vw;
+    overflow: hidden;
+    box-shadow: 0 1vw 1.5vw rgba(0, 0, 0, 0.1); 
+}
+
+
+.noticia img {
+    width: 100%;
+    height: 15vw; 
+    object-fit: cover; 
+}
+
+
+.noticia h3 {
+    font-size: 1.2vw;
+    margin: 1vw;
+}
+
+
+.noticia p {
+    font-size: 1vw;
+    margin: 0 1vw 1vw;
+    color: #666;
+}
+
+
+.noticia a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.noticia a:hover h3 {
+    color: #007bff;
+}
+
+.container1 {
+
+    padding: 5vw;
+    border: 1px solid rgb(255, 0, 0);
+    width: 12vw;
+    margin-top: 6vw;
+    border-radius: 0.5vw;
+    box-shadow: 1px 1px 1px 1px rgb(126, 2, 2);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #aa0707;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+main {
+    width: 100vw;
+    margin-top: 2vw;
+
+
+    & .containerdois{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & .divimagem{
+            width: 40vw;
+
+            & img{
+                width: 30vw;
+                height: auto;
+                border-radius: 2vw;
+            }
+        }
+
+        & .texto{
+            width: 30vw;
+           
+           
+            & h1 {
+                font-size: 2 vw;
+                color: rgb(255, 0, 0);
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+
+            & span{
+                font-size: 1vw;
+                color: rgb(133, 133, 133);
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+        }
+
+    }
+
+    .containertres {
+        width: 60vw;
+        background: rgb(199, 4, 4);
+        padding: 2vw;
+        border-radius: o.2vw;
+        margin-left: 20vw;/*jogar pro lado*/
+        margin-top: 3vw;/*descer*/
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1vw;
+    }
+
+    .containerquatro{
+        width: 60vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 17vw;
+        margin-top: 2vw;
+        margin-left: 20vw;
+        & .card1, .card2, .card3, .card4, .card5, .card6{
+            padding: 3vw;
+            
+            border: 1px solid black;
+            margin: 1vw;
+            border-radius: 2vw;
+            border-color: rgb(216, 215, 215);
+        }
+    }
+}
+    
+    .container6{
+        width: 60vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 17vw;
+        margin-top: 2vw;
+        margin-left: 20vw;
+        
+        &  .card4, .card5, .card6{
+            padding: 3vw;
+            
+            border: 1px solid black;
+            margin: 1vw;
+            border-radius: 2vw;
+            border-color: rgb(216, 215, 215);
+        }
+    }
+    .signo {
+        display: grid; 
+        grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr)); 
+        gap: 2vw; 
+        padding: 2vw; 
+    }
+    
+    
+    .signo {
+        background-color: white;
+        border-radius: 0.8vw;
+        overflow: hidden;
+        box-shadow: 0 1vw 1.5vw rgba(0, 0, 0, 0.1); 
+    }
+    
+    
+    .signo img {
+        width: 100%;
+        height: 15vw; 
+        object-fit: cover; 
+    }
+    
+    
+    .signo h3 {
+        font-size: 1.2vw;
+        margin: 1vw;
+    }
+    
+    
+    .signo p {
+        font-size: 1vw;
+        margin: 0 1vw 1vw;
+        color: #666;
+    }
+    
+    
+    .signo a {
+        color: inherit;
+        text-decoration: none;
+    }
+
